@@ -1,0 +1,25 @@
+<svg
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 64 64"
+  width="64"
+  height="64"
+>
+  <!-- Background -->
+  <rect width="64" height="64" rx="14" fill="#16A34A" />
+
+  <!-- Resume -->
+  <rect x="16" y="10" width="32" height="44" rx="5" fill="#fff" />
+
+  <!-- Profile -->
+  <circle cx="32" cy="23" r="5" fill="#16A34A" />
+  <path
+    d="M23 35c0-4.4 3.6-8 8-8h2c4.4 0 8 3.6 8 8v1H23z"
+    fill="#16A34A"
+  />
+
+  <!-- Sparkle -->
+  <path
+    d="M50 12l1.5 4.5L56 18l-4.5 1.5L50 24l-1.5-4.5L44 18l4.5-1.5L50 12z"
+    fill="#FACC15"
+  />
+</svg>
