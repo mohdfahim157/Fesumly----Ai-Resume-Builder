@@ -2,7 +2,7 @@ import axios from "axios";
 import toast from "react-hot-toast";
 const apiUrl = import.meta.env.VITE_API_URL;
 const api = axios.create({
-  baseURL: api+"/api",
+  baseURL: apiUrl+"/api",
   withCredentials: true, // Include credentials in requests
 });
 
