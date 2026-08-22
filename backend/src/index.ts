@@ -9,7 +9,10 @@ import cors from "cors";
 
 export const app:Application = express();
 const corsOptions = {
-  origin: '*',
+  origin: [
+  'https://fesumly-ai-resume-builder.vercel.app',
+  'http://localhost:5173',
+],
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 };
