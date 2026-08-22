@@ -34,7 +34,7 @@ export default async function registerUserController(req: Request, res: Response
 
         await user.save();
         
-        res.cookie("token", token, { httpOnly: true, secure: process.env.NODE_ENV === "production" });
+        res.cookie("token", token, { httpOnly: true, secure: true ,  sameSite: 'none',maxAge: 7 * 24 * 60 * 60 * 1000  });
         res.status(201).json({
             message: "User registered successfully",
             user: { id: user._id, username: user.username, email: user.email },
