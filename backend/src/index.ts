@@ -9,7 +9,7 @@ import cors from "cors";
 
 export const app:Application = express();
 const corsOptions = {
-  origin: 'http://localhost:5173',
+  origin: 'https://fesumly.onrender.com',
   methods: 'GET,HEAD,PUT,PATCH,POST,DELETE',
   credentials: true,
 };
